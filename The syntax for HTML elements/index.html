@@ -7,6 +7,8 @@
     <title>Simple syntax for HTML elements</title>
 </head>
 <body>
+    <!-- block level elements -->
+
     <!-- headlines -->
     <h1>Haeading 1</h1>
     <h2>Haeading 2</h2>
@@ -25,5 +27,96 @@
         <p>This is second paragraph</p>
         <p>This s third paragraph with <em>text emphasized</em> for effect</p>
     </article>
+
+    <!-- inline elements -->
+
+    <!-- bold -->
+    <p>This paragraph has a <b>bold</b> nested element</p>
+
+    <!-- italic -->
+    <p>This other paragraph has <i>italicised</i> element</p>
+
+    <!-- emphasized -->
+    <h4><em>Heading four</em></h4>
+
+    <!-- strong -->
+    <p>This is my last shor paragraph with <strong>strong</strong> element</p>
+
+    
+    <!-- tohehr block level elements -->
+    
+    <!-- lists -->
+
+    <!-- unordered lists -->
+    <ul>
+        <li>Mark</li>
+        <li>John</li>
+        <li>James</li>
+    </ul>
+
+    <!-- ordered lists -->
+    <ol>
+        <li>Noel</li>
+        <li>Kevin</li>
+        <li>Noel</li>
+    </ol>
+
+    <!-- definition list -->
+    <dl>
+        <dt>term</dt>
+        <dd>definition</dd>
+        <dd>additional definition</dd>
+        <dt>second term</dt>
+        <dd>definition for second term</dd>
+        <dt>third term</dt>
+        <dd>definition for third term</dd>
+    </dl>
+
+    <!-- quotes -->
+    <blockquote>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi, perspiciatis eius ab iste cum eligendi sint dolorum at commodi error totam, ipsum omnis neque, voluptatum voluptate ex. Ducimus dolorum atque magni perspiciatis cum ea porro illum itaque praesentium culpa, sapiente dicta totam, omnis assumenda dolor? Doloribus assumenda fugit, quasi similique architecto eius impedit error dolores. Quis sapiente quisquam alias.
+            
+            <cite> - Mark Onyach</cite>
+        </p>
+    </blockquote>
+
+    <!-- date and times -->
+    <p>The couple will be celebaring their birthday on <time datetime="2020-08-31">August 31</time>in Brites National park</p>
+    <p>Concert starts at <time datetime="20:00">20:00</time> and you'll enjoy the band for at least <time datetime="PT2H30M">2h 30min</time> </p>
+
+    <p>The concert starts at <time datetime="2018-07-07T20:00:00">20:00</time>.</p>
+
+    <p>The concert took place on <time
+        datetime="2001-05-15T19:00">May 15</time>.</p>      
+
+    <!-- code -->
+    <p>We can write <code>{color:green}</code> style and apply it to some elements in our markup</p>
+
+    <!-- HTML Entities &lt; and &gt;-->
+    <p>This paragraph also has the code element for the H4 tag <code>&lt;h4&gt;</code></p>
+
+    <!-- br -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deleniti est ducimus temporibus dignissimos consectetur soluta quidem a, doloremque libero. <br> after the break element</p>
+
+    
+    <!-- pre -->
+    <pre>
+        <code>
+            &lt;ul&gt;
+                &lt;li&gt;flour&lt;/li&gt;
+                &lt;li&gt;flour&lt;/li&gt;
+                &lt;li&gt;flour&lt;/li&gt;
+            &lt;/ul&gt;
+
+            ul {
+                color: "red";
+            }
+
+            li {
+                list-style-type: square;
+            }
+        </code>
+    </pre>
 </body>
 </html>
